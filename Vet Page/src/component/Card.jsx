@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="border-gray-300 space-y-5  pb-5 border w-[333.068px] rounded-xl h-[ 187.906px]">
+    <div className="border-gray-300 space-y-5  pb-5 border md:w-[333.068px] rounded-xl md:h-[ 187.906px]">
       <div>
         <img src="/Dog1.svg" alt="" />
       </div>
@@ -15,7 +15,7 @@ const Card = () => {
           challenges of pet gromming.
         </p>
       </div>
-      <div className=" w-full grid place-content-center">
+      <div className="grid w-full  place-content-center">
         <button className="bg-[#17224d] px-3 py-2 rounded-xl text-[#ffffff]">
           View More
         </button>
