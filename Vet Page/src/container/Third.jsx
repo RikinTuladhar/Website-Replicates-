@@ -2,7 +2,7 @@ import React from "react";
 
 const Third = () => {
   return (
-    <div className="lg:px-10 space-y-5 w-full md:w-[50%]   bg-[#f5fafa]">
+    <div className="lg:px-10 md:px-0 px-5 space-y-5 w-full md:w-[50%]   bg-[#f5fafa]">
       <h1 className="text-5xl text-[#17224d] font-semibold">About Us</h1>
       <p className="text-[#515151] text-2xl">
         Pet House & Animal clinic was established with moto to provide
